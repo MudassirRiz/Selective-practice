@@ -33,11 +33,7 @@ const quizQuestions = [
 
 let currentQuestion = 0;
 let score = 0;
-let answered = false; //abhi question ka answer nahi dia gya hai to false hai
-/* 
-questions.innerHTML = quizQuestions[currentQuestion].question;
-
-options.innerHTML = ""; */
+let answered = false; 
 
 function showQuestion() {
     if(answered){
